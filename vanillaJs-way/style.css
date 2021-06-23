@@ -1,0 +1,38 @@
+body {
+    width: 600px;
+    margin: 40px auto;
+}
+
+.input {
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#board {
+    border: 5px solid darkgoldenrod;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    box-sizing: border-box;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.cross {
+    color: red;
+}
+
+.dot {
+    color: blue;
+}
